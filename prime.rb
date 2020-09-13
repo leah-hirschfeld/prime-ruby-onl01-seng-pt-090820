@@ -1,5 +1,5 @@
 def prime?(num)
-  if num.abs == 1 
+  if num.abs == 1 || 0
     return false
   end
   (2..((num/2).round(0))).each do |n|
