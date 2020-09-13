@@ -1,5 +1,6 @@
-def prime?(int)
-  
-  array.select do |i|
-    
+def prime?(num)
+  (2..(num - 1)).each do |n|
+    return false if num % n == 0
+  end
+  true
 end
